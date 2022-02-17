@@ -18,7 +18,7 @@ const styles = StyleSheet.create({
 
 const App = () => {
 
-  const [seconds, setSeconds] = useState(55);
+  const [seconds, setSeconds] = useState(0);
   const [minutes, setMinutes] = useState(0);
 
     useEffect(() => {
